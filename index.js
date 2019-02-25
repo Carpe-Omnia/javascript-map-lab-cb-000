@@ -27,5 +27,3 @@ const sortedRobots = robots.map(function(robot){
   knownDecepticons.includes(robot.name) ? team = 'decepticon' : team = 'autobot' ;
   return Object.assign({}, {name: robot.name, alliance: team}) ;
 })
-
-
